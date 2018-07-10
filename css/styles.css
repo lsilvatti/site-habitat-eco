@@ -1,13 +1,12 @@
-/*
-* === CRIA A FAMILIA DA FONTE PARA FONTE PERSONALIZADA ===
-*/
-
 @font-face {
-    font-family: BebasNeue;
-    src: url(../resources/bebasneue.ttf);
+     font-family: ClearSans;
+     src: url(../resources/ClearSans.tff);
 }
 
-/* - CONFIGURAÇÃO DA PAGINA */
+@font-face {
+    font-family: GrandeSign;
+    src: url(../resources/GrandeSign.ttf);
+}
 
 body,
 html {
@@ -19,7 +18,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}f
+}
 
 
 /*
@@ -29,39 +28,32 @@ html {
 
 
 .navbar-dark .navbar-brand {
-    color: rgba(255, 255, 255, 0);
-    font-family: BebasNeue;
-    font-size: 140%;
-    transition: 0.6s all;
-    visibility: hidden;
+    
+    transition: 0.6 all;
 }
 
 .navbar-dark .navbar-brand:hover {
     color: rgba(255, 255, 255, 0);
-    font-family: BebasNeue;
-    font-size: 140%;
-    transition: 0.6s all;
-}
+}   
 
 .brandi {
-    color: rgba(255, 255, 255, 1) !important;
-    visibility: visible !important;
+    opacity: 100 !important;
 }
 
 #navfont.active {
-    color: #aa8cf2 !important;
+    color: rgb(253, 185, 22) !important;
 }
 
 #navfont:hover {
-    color: #6f80d0;
+    color: rgb(0, 84, 35) !important;
 }
 
 #navfont {
-    color: white;
-    -webkit-transition-duration: 0.4s;
+    color: black;
+    transition: 0.4 all;
     transition-duration: 0.4s;
-    font-family: BebasNeue, sans-serif;
-    font-size: 120%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3rem;
 }
 
 /*
@@ -71,18 +63,6 @@ html {
 p {
     color: white;
     font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: BebasNeue, sans-serif;
-    color: white;
-    font-size: 70px;
-    line-height: 70px;
-}
-
-h2 {
-    font-family: BebasNeue, sans-serif;
-    font-size: 56px;
 }
 
 h5 {
@@ -102,10 +82,21 @@ h3 {
 */
 
 
+h1{
+    color: rgb(32,177,74);
+    font-size: 350%;
+    font-size-adjust: auto;
+    font-family: GrandeSign;
+}
+
+h2{
+    
+}
 
 .bg-1 {
     background-image: url(../img/home.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-area {
@@ -113,13 +104,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.home p {
-    font-family: 'Slabo 27px', serif;;
-    font-size: 14px;
-    line-height: inherit;
-    margin: 0px;
 }
 
 .changenav {

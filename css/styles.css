@@ -1,11 +1,11 @@
 @font-face {
-     font-family: ClearSans;
-     src: url(../resources/ClearSans.tff);
+    font-family: 'GrandeSign';
+    src: url(../resources/GrandeSign.ttf);
 }
 
 @font-face {
-    font-family: GrandeSign;
-    src: url(../resources/GrandeSign.ttf);
+    font-family: 'ClearSans';
+    src: url(../resources/ClearSans.ttf);
 }
 
 body,
@@ -27,17 +27,13 @@ html {
 
 
 
-.navbar-dark .navbar-brand {
-    
-    transition: 0.6 all;
+.navbar-light .navbar-brand {
+    opacity:0;
+    transition:opacity 0.4s linear;
 }
 
-.navbar-dark .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0);
-}   
-
 .brandi {
-    opacity: 100 !important;
+    opacity:1 !important;
 }
 
 #navfont.active {
@@ -60,22 +56,6 @@ html {
 * === CONFIGURAÇÃO GERAL DE HEADERS E PARAGRAFO ===
 */
 
-p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-h5 {
-    font-family: BebasNeue, sans-serif;
-    color: #fff;
-    font-size: 43px;
-}
-
-h3 {
-    font-family: BebasNeue, sans-serif;
-    color: white;
-}
-
 
 /*
 * === HOME ===
@@ -86,12 +66,23 @@ h1{
     color: rgb(32,177,74);
     font-size: 350%;
     font-size-adjust: auto;
-    font-family: GrandeSign;
+    font-family: 'GrandeSign', sans-serif;
+}
+
+h3{
+    color: black;
+    font-size: 250%;
+    font-size-adjust: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 25px;
 }
 
 h2{
-    
+    font-family: 'ClearSans', sans-serif;
+    font-size: 150%;
 }
+
+
 
 .bg-1 {
     background-image: url(../img/home.jpg);
@@ -123,20 +114,20 @@ h2{
 
 
 .parallax1 {
-    background-image: url("../img/bg1.jpg");
+    background-image: url("../img/bgsobre.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sobre p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+p{
+    font-family: 'ClearSans', sans-serif;
+    font-size: 1.14rem;
 }
 
 .sobre {
-    background-color: rgba(20, 20, 20, 0.3);
+    background-color: rgba(32,32,32, 0.43);
     padding: 60px;
 }
 
@@ -241,7 +232,9 @@ h2{
 }
 
 #footer p {
+    color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
 }
 
 .fb,

@@ -37,11 +37,11 @@ html {
 }
 
 #navfont.active {
-    color: rgb(253, 185, 22) !important;
+    color: rgb(253, 185, 22);
 }
 
 #navfont:hover {
-    color: rgb(0, 84, 35) !important;
+    color: rgb(0, 84, 35);
 }
 
 #navfont {
@@ -73,7 +73,7 @@ h3{
     color: black;
     font-size: 250%;
     font-size-adjust: auto;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'GrandeSign', sans-serif;
     padding-bottom: 25px;
 }
 
@@ -112,49 +112,27 @@ h2{
 * === SOBRE MIM ===
 */
 
-
-.parallax1 {
-    background-image: url("../img/bgsobre.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.visicon{
+    font-size: 2rem;
+    color: rgb(32,177,74);
 }
 
 p{
-    font-family: 'ClearSans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.14rem;
 }
 
 .sobre {
-    background-color: rgba(32,32,32, 0.43);
+    background-color: rgb(245,245,245);
     padding: 60px;
 }
 
 /*
-* === PORTFOLIO ===
+* === ENERGIA SOLAR ===
 */
 
-.portf {
-    background-color: rgb(230, 230, 230);
-}
-
-.portimage {
-    filter: none;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    cursor: pointer;
-    transition: all 300ms ease;
-}
-
-.portimage:hover {
-    filter: none;
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
+#solar{
+    padding: 60px;
 }
 
 .presimg {
@@ -175,13 +153,11 @@ p{
     max-width: 600px;
 }
 
-.parallax2 {
-    background-image: url("../img/bg2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.contact p{
+    margin: 0px;   
 }
+
+
 
 .contato {
     padding-top: 25px;
@@ -228,6 +204,23 @@ p{
     background: #d1d0d0;
 }
 
+.contact .nameP{
+    font-size: 1.35rem;
+}
+
+.contact .telP{
+    font-size: 1rem;
+    color:gray;
+}
+.contact .emailP{
+    font-size: 1rem;
+    color: dimgray;
+}
+
+.contact .emailP:hover{
+    font-size: 1rem;
+    color: rgb(32,177,74);
+}
 
 /*
 * === FOOTER ===
@@ -236,7 +229,7 @@ p{
 
 #footer {
     text-align: center;
-    background: #272727;
+    background: rgb(0, 84, 35);
 }
 
 #footer p {
@@ -245,28 +238,19 @@ p{
     font-size: 0.9rem;
 }
 
-.fb,
-.linkedin,
-.git {
+.fb {
     transition: 0.36s all;
 }
 
 .fb:hover {
-    color: #275df1 !important;
+    color: rgb(253, 185, 22) !important;
 }
 
-.linkedin:hover {
-    color: #2591fc !important;
-}
-
-.git:hover {
-    color: #7b01fd !important;
-} 
 
 #jrcomlink{
     color: white;
 }
 
 #jrcomlink:hover{
-        color: #6e00ff;
+        color: rgb(253, 185, 22);
     }

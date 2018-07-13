@@ -139,6 +139,10 @@ p{
     padding: 10px;
 }
 
+.list{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
 
 /*
 * === CONTATO ===
